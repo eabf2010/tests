@@ -1,0 +1,43 @@
+<div class="row top-10">
+    <div class="col-md-4 center-div">
+        <button mat-button class="btn btn-primary" (click)="startReloj()">Reloj</button>
+    </div>
+    <div class="col-md-4 center-div">
+        <button mat-button class="btn btn-secondary" (click)="showChronometer()">Cronometro</button>
+    </div>
+    <div class="col-md-4 center-div">
+        <button mat-button class="btn btn-dark" (click)="countDown()">Cuenta Atras</button>
+    </div>
+
+    <div class="col-md-12 cronometro" id="displayReloj">
+    </div>
+    <!-- <div class="col-md-6">
+        <button mat-button class="btn btn-danger" (click)="stopCountDown()">Detener</button>
+    </div>
+    <div class="col-md-6">
+        <button mat-button class="btn btn-dark" (click)="startCountDown()">Comenzar</button>
+    </div> -->
+
+    <div class="col-md-12 cronometro" id="reloj"></div>
+
+    <div class="col-md-12 cronometro" id="showChrono">
+        <div class="row">
+            <div class="col-md-12 " id="chrono">
+                <div class="row">
+                    <div class="col-md-3" id="hour">00</div>
+                    <div class="col-md-1 divider" id="hour">:</div>
+                    <div class="col-md-3" id="minute">00</div>
+                    <div class="col-md-1 divider" id="hour">:</div>
+                    <div class="col-md-3" id="second">00</div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <button mat-button class="btn btn-danger" (click)="stopChonometer()">Detener</button>
+            </div>
+            <div class="col-md-6">
+                <button mat-button class="btn btn-dark" (click)="startChonometer()">Comenzar</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-md-12 background-top">
+        <div class="card" style="width: 40rem;">
+            <img [src]="'../assets/images/'+pagesArray+'.jpg'" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">
+                    <span class="text-title"> Pagina {{ pagesArray }} </span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 center-div top-10">
+        <div class="row">
+            <div class="col-md-4">
+                <button mat-button id="backButtom" class="btn btn-secondary" (click)="backStep()">Anterior</button>
+            </div>
+            <div class="col-md-4">
+                <button mat-button id="backButtom" class="btn btn-dark" (click)="firstStep()">Inicio</button>
+            </div>
+            <div class="col-md-4">
+                <button mat-button id="nextButtom" class="btn btn-primary" (click)="nextStep()">Siguiente</button>
+                <button mat-button id="finishButtom" class="btn btn-danger" (click)="nextStep()">Finalizar</button>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,27 @@
+.background-top {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+.text-title {
+    font-size: large;
+    font-weight: 600;
+}
+
+.top-10 {
+    padding-top: 10px;
+}
+
+.disabled {
+    opacity: 1;
+}
+
+.enabled {
+    opacity: 0.5;
+}

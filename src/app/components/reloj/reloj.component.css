@@ -1,0 +1,69 @@
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: alarm;
+    src: url(font/alarm.ttf);
+}
+
+.cronometro {
+    width: 200px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -100px;
+    text-align: center;
+}
+
+#hms {
+    height: 68px;
+    padding: 5px 0;
+    font-size: 50px;
+    color: #000;
+    font-family: alarm;
+}
+
+.top-10 {
+    padding-top: 10px;
+}
+
+#displayReloj {
+    height: 68px;
+    padding: 5px 0;
+    font-size: 50px;
+    color: #000;
+    font-family: alarm;
+}
+
+#reloj {
+    height: 68px;
+    padding: 5px 0;
+    font-size: 50px;
+    color: #000;
+    font-family: alarm;
+}
+
+#chrono {
+    height: 68px;
+    padding: 5px 0;
+    font-size: 50px;
+    color: #000;
+    font-family: alarm;
+}
+
+
+/* .start {
+    background: url(icon/play.png) 0 0 no-repeat;
+}
+
+.stop {
+    background: url(icon/55.png) 0 0 no-repeat;
+}
+
+.reiniciar {
+    background: url(icon/55.png)0 0 no-repeat;
+} */
